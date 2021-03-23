@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!--Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <!---My CSS--->
+    <link rel="stylesheet" href="style.css" />
+    <!---End My CSS-->
+    <title>Muhamad Rifki Kautsar</title>
+</head>
+
+<body>
+    <!---Navbar--->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3" id="navbar">
+        <div class="container">
+            <a class="navbar-brand btn-btn-primary btn-lg">
+                <script type="text/javascript">
+                //<![CDATA[
+                var h = new Date().getHours();
+                var m = new Date().getMinutes();
+                var s = new Date().getSeconds();
+                if (h >= 4 && h < 11) document.writeln("Halo, Selamat pagi");
+                if (h >= 11 && h < 15) document.writeln("Halo, Selamat siang");
+                if (h >= 15 && h < 18) document.writeln("Halo, Selamat sore");
+                if (h >= 18 || h < 4) document.writeln("Halo, Selamat malam");
+                //]]>
+                </script>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold rounded-pill" aria-current="page" href="index.php?page=menu">
+                            <i class="bi bi-house-fill"></i></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="index.php?page=tugas"><i class="bi bi-list-task"></i>Tugas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="index.php?page=about"><i
+                                class="bi bi-file-person-fill"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="index.php?page=contact"><i
+                                class="bi bi-person-lines-fill"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
